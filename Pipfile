@@ -10,4 +10,28 @@ ipdb = "0.13.9"
 pytest = "7.1.3"
 
 [requires]
-python_full_version = "3.8.13"
+python_full_version = "3.10.12"
+
+
+spicy_foods = [
+    {
+        "name": "Green Curry",
+        "cuisine": "Thai",
+        "heat_level": 9,
+    },
+    {
+        "name": "Buffalo Wings",
+        "cuisine": "American",
+        "heat_level": 3,
+    },
+    {
+        "name": "Mapo Tofu",
+        "cuisine": "Sichuan",
+        "heat_level": 6,
+    },
+]
+Define a function `average_heat_level()` that takes a list of `spicy_foods` and
+**returns an integer** representing the average heat level of all the spicy
+foods in the array. Recall that to derive the average of a collection, you need
+to calculate the total and divide number of elements in the collection.
+
