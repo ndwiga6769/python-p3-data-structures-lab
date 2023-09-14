@@ -30,8 +30,5 @@ spicy_foods = [
         "heat_level": 6,
     },
 ]
-Define a function `average_heat_level()` that takes a list of `spicy_foods` and
-**returns an integer** representing the average heat level of all the spicy
-foods in the array. Recall that to derive the average of a collection, you need
-to calculate the total and divide number of elements in the collection.
-
+Define a function `create_spicy_food()` that takes a list of `spicy_foods` and a
+new `spicy_food` and returns the original list with the new `spicy_food` added.

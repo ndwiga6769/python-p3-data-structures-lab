@@ -55,7 +55,19 @@ def print_spiciest_foods(spicy_foods):
 
 def get_average_heat_level(spicy_foods):
     sum_food = sum([food["heat_level"] for food in spicy_foods])
-    
+    num_foods = len(spicy_foods)
+    if num_foods > 0:
+        return sum_food // num_foods
+    else:
+        return 0
 
 def create_spicy_food(spicy_foods, spicy_food):
-    pass
+    spicy_food = {
+        
+        'name': 'Griot',
+        'cuisine': 'Haitian',
+        'heat_level': 10,
+    }
+    
+    spicy_foods.append(spicy_food)
+    return spicy_foods
